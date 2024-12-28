@@ -17,7 +17,7 @@
 int is_planet(const char *s);
 
 int main(int argc, char *argv[]) {
-  // checks if provide arguements are planets
+  // checks if provide arguments are planets
   for (int i = 0; i < argc; i++) {
     printf("%s, is_planet = %d\n", argv[i], is_planet(argv[i]));
   }
